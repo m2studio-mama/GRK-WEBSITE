@@ -1,0 +1,22 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-c2.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c2c2c" />
+      <stop offset="100%" stop-color="#111111" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3A8" />
+      <stop offset="100%" stop-color="#FFD700" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bg-c2.svg)" stroke="url(#gold-grad)" stroke-width="2" />
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+  
+  <!-- Initials text -->
+  <text x="100" y="115" font-family="'Montserrat', sans-serif" font-weight="800" font-size="44" fill="url(#gold-grad)" text-anchor="middle" letter-spacing="1">KK</text>
+  
+  <!-- Star symbol at bottom -->
+  <polygon points="100,135 102,140 108,140 103,143 105,149 100,145 95,149 97,143 92,140 98,140" fill="#FFD700" opacity="0.8" />
+</svg>
