@@ -1,0 +1,26 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-fc2.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1313" />
+      <stop offset="100%" stop-color="#0a0505" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3A8" />
+      <stop offset="100%" stop-color="#FFD700" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg-fc2.svg)" />
+  <rect x="15" y="15" width="370" height="370" fill="none" stroke="url(#gold-grad)" stroke-width="1" opacity="0.25" rx="5" />
+  
+  <!-- Stylized paint brushes/stars to indicate art -->
+  <g opacity="0.3">
+    <path d="M 120 150 C 120 100, 280 100, 280 150 C 280 200, 120 200, 120 250" fill="none" stroke="#FFD700" stroke-width="2" />
+    <circle cx="200" cy="200" r="50" fill="none" stroke="#FFFFFF" stroke-width="1" />
+  </g>
+  
+  <text x="200" y="210" font-family="'Montserrat', sans-serif" font-weight="800" font-size="28" fill="url(#gold-grad)" text-anchor="middle" opacity="0.6">FAN ART</text>
+  
+  <rect x="0" y="320" width="400" height="80" fill="rgba(0,0,0,0.85)" />
+  <text x="25" y="350" font-family="'Montserrat', sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">By Karthik Editor</text>
+  <text x="25" y="372" font-family="'Poppins', sans-serif" font-weight="500" font-size="10" fill="#E50914" letter-spacing="1">TEAM GRK CREATIVE HUB</text>
+</svg>

@@ -1,0 +1,54 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-august_16_1947.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181818" />
+      <stop offset="50%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3A8" />
+      <stop offset="50%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="600" fill="url(#bg-august_16_1947.svg)" />
+  
+  <!-- Subtle decorative grid -->
+  <path d="M 0 100 L 400 100 M 0 200 L 400 200 M 0 300 L 400 300 M 0 400 L 400 400 M 0 500 L 400 500" stroke="#ffd700" stroke-width="0.5" opacity="0.05" />
+  <path d="M 100 0 L 100 600 M 200 0 L 200 600 M 300 0 L 300 600" stroke="#ffd700" stroke-width="0.5" opacity="0.05" />
+
+  <!-- Borders -->
+  <rect x="15" y="15" width="370" height="570" fill="none" stroke="url(#gold-grad)" stroke-width="2" opacity="0.3" rx="4" />
+  <rect x="22" y="22" width="356" height="556" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" rx="2" />
+
+  <!-- Film strip pattern at top and bottom -->
+  <g opacity="0.15">
+    <rect x="30" y="30" width="340" height="15" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="8 6" />
+    <rect x="30" y="555" width="340" height="15" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="8 6" />
+  </g>
+
+  <!-- Top logo text -->
+  <text x="200" y="65" font-family="'Montserrat', sans-serif" font-weight="800" font-size="11" fill="url(#gold-grad)" text-anchor="middle" letter-spacing="3">TEAM GRK PRESENTATION</text>
+
+  <!-- Cinematic Graphic in Center -->
+  <g transform="translate(200, 260)">
+    <!-- Shield / Crest design -->
+    <path d="M -50,-60 L 50,-60 L 40,0 L 0,40 L -40,0 Z" fill="none" stroke="url(#gold-grad)" stroke-width="1.5" opacity="0.25" />
+    <!-- Giant letter -->
+    <text x="0" y="12" font-family="'Montserrat', sans-serif" font-weight="900" font-size="64" fill="url(#gold-grad)" text-anchor="middle" opacity="0.12" letter-spacing="1">GRK</text>
+    <!-- Gold Star -->
+    <polygon points="0,-22 4,-10 16,-10 6,-3 10,9 0,2 -10,9 -6,-3 -16,-10 -4,-10" fill="url(#gold-grad)" opacity="0.8" />
+  </g>
+
+  <!-- Film Title & Info -->
+  <rect x="40" y="380" width="320" height="120" fill="rgba(0,0,0,0.6)" rx="8" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+  
+  <text x="200" y="415" font-family="'Montserrat', sans-serif" font-weight="800" font-size="22" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">August 16, 1947</text>
+  <text x="200" y="445" font-family="'Poppins', sans-serif" font-weight="600" font-size="12" fill="url(#gold-grad)" text-anchor="middle" letter-spacing="4">GAUTHAM RAM KARTHIK</text>
+  <text x="200" y="475" font-family="'Poppins', sans-serif" font-weight="400" font-size="11" fill="#888888" text-anchor="middle" letter-spacing="1.5">Drama â€¢ 2023 â€¢ THEATRICAL RELEASE</text>
+
+  <!-- Play icon overlay cue -->
+  <circle cx="200" cy="525" r="22" fill="#E50914" opacity="0.85" />
+  <polygon points="195,515 211,525 195,535" fill="#FFFFFF" />
+</svg>
