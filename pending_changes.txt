@@ -1,0 +1,57 @@
+========================================================================
+            DATA AND CREDENTIALS TO SHARE WITH THE AI AGENT
+========================================================================
+
+Please prepare the following information and assets. Once you send them 
+to me, I will instantly configure and connect them in the code.
+
+------------------------------------------------------------------------
+1. MEMBERSHIP CARD LAYOUT TEMPLATE
+------------------------------------------------------------------------
+* File Type: A clean PNG or JPEG image file of your new card layout template.
+* Detail: Let me know the placement details for each field:
+  - Where the Photo should go.
+  - Where the Name, DOB, Blood Group, and Address should be placed.
+  - Where the Member Number, Mobile, and Date of Joining should be aligned.
+
+------------------------------------------------------------------------
+2. DATABASE (MySQL) CONNECTION DETAILS
+------------------------------------------------------------------------
+* Cloud Connection String OR Local Credentials:
+  - Host Address (e.g. database-1.c3abcde.us-east-1.rds.amazonaws.com)
+  - Database Port (Default is 3306)
+  - Database User Name
+  - Database Password
+  - Database Name
+  * Format example: mysql://admin:my-password@my-host-address:3306/grk_database
+
+------------------------------------------------------------------------
+3. WHATSAPP AUTOMATION (Meta Developer Portal)
+------------------------------------------------------------------------
+* Permanent Access Token (Generate this from your Meta App Settings).
+* Phone Number ID (Found in your WhatsApp Cloud API Dashboard).
+* Template Name (The approved message template name, e.g. "member_card_approved").
+
+------------------------------------------------------------------------
+4. CORE WEBSITE DATA
+------------------------------------------------------------------------
+* Location: Your official fan club office address (Text string).
+* Mobile Contact: The coordinator's phone number.
+* Contact Email: The coordinator's email address.
+* Social Links: 
+  - Instagram URL
+  - Facebook page URL
+  - YouTube channel URL
+  - X / Twitter profile URL
+
+------------------------------------------------------------------------
+5. AI PHOTO EDITOR (OpenAI API)
+------------------------------------------------------------------------
+* OpenAI Secret API Key (Starts with "sk-...").
+
+------------------------------------------------------------------------
+6. SECURITY JWT SIGNING KEY
+------------------------------------------------------------------------
+* Any random long sentence/phrase to act as the secret key to sign 
+  admin sessions securely (e.g. "GrkFanClubAdminSecuredSessionPass2026!").
+========================================================================
